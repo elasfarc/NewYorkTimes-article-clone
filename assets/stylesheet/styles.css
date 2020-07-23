@@ -9,11 +9,12 @@ html{
         /*default font 16px == 1rem */
 }
 body{
-    background-color: rgb(247,247,247);
+    background-color: rgb(246,246,246);
+    font-family:Georgia;
 }
 .wrapper{
-    width:85%;
-    margin: 0 auto;
+    border: 1px solid red;
+    width:100%;
 }
 /*===================reusable========================*/
 /*flex display*/
@@ -22,15 +23,31 @@ body{
     
 }
 
+/*center element*/
+.center{
+    margin:0 auto;
+}
+
 /*AD section*/
 .ads{
     width:100%;
-    height:5rem;
-    background-color: gray;
+    height:10rem;
+    color: #ccc;
     align-items: center;
     justify-content: center;
 }
 
+/* article section*/
+.article{
+    border: 1px solid #00FFFF;
+    width: 37.5rem;
+    margin: 0 auto;
+    color: hsl(0, 0%, 20%);
+    font-size:1.25rem;
+    line-height: 1.875rem;
+    background-color: white;
+
+}
 /*===================style the nav========================*/
 
 .main-nav{
@@ -67,12 +84,32 @@ login-subscribe-btns{
 }
 /*===================article title main img caption========================*/
 
-.main-title{
-    text-align: center;
+.main-title-fig{
+    border: 1px solid green;
+    background-color: rgb(255,255,255);
     color: #121212;
+    margin-top: 1rem;
     font-size:2.5rem;
 }
 
+.main-title-fig h4{
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-bottom:1.5rem;
+    width:37.5rem;
+    height: 6rem;
+    
+}
+
+figure {
+    border: 1px solid brown;
+    margin:0 10.5rem;
+}
+figure img{
+    width: 59rem;
+    height: 33.25rem;
+}
+    
 figcaption{
     color: #666666;
     font-size:0.9375rem;
