@@ -163,7 +163,27 @@ aside{
     height: 59.23rem;
     border: 1px solid green;
     font-size: 0.875rem;
-    float: right;
+    float: right;   
+}
+
+#aside-container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#editor{
+    border-bottom: 1px solid gray;
+}
+.aside-img{
+  width:  75px;
+  height: 75px;
+  border: 1px solid black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.img-1{
+    background-image: url(/assets/26mag-Relampago-Web-Image-square640.jpg);
 }
 
 
