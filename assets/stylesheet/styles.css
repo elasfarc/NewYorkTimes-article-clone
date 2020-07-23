@@ -1,5 +1,5 @@
 /*===================reset========================*/
-}
+
 body, nav, div{
     margin:0;
 }
@@ -77,6 +77,10 @@ figcaption{
     color: #666666;
     font-size:0.9375rem;
     line-height:1.25rem;
+    width: 45rem;
+    height: 3.625rem;
+    margin: 0.625rem 1.25rem 0 0;
+    text-align: left;
 }
 
 figcaption span{
@@ -84,27 +88,30 @@ figcaption span{
     font-size:0.8125;
 }
 
-.date-share ul li:before{
-    display: table;
-    content: "";
-}
-
-.date-share ul li:after{
-    clear: both;
+#author{
+    width: 600px;
+    align-self: center;
 }
 .date-share ul li{
     list-style: none;
-    display: inline-block;
-    float: left;
-    clear: both;
-        
+    display: inline;
+    margin-right: 10px;
     
 }
-
-.date-share ul li time{
-    float: right;
+.date-share ul li a{
+    text-decoration: none;
 }
 
+#time {
+    margin-right: 40%;
+}
+
+/*img inflation */
+#img-in{
+    width: 100%;
+    
+    
+}
 
 
 
