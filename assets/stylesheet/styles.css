@@ -128,7 +128,13 @@ figcaption span{
 #author{
     width: 600px;
     align-self: center;
+    border: 1px solid blue;
+    margin: 0 auto;
 }
+#date-list{
+    margin-left: 0px;
+}
+
 .date-share ul li{
     list-style: none;
     display: inline;
@@ -141,6 +147,7 @@ figcaption span{
 
 #time {
     margin-right: 40%;
+    
 }
 
 /*img inflation */
@@ -150,6 +157,13 @@ figcaption span{
     
 }
 
-
+/*aside*/
+aside{
+    width:13.125rem;
+    height: 59.23rem;
+    border: 1px solid green;
+    font-size: 0.875rem;
+    float: right;
+}
 
 
