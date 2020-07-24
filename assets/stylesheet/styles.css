@@ -48,6 +48,7 @@ body{
 .wrapper{
     border: 1px solid red;
     width:100%;
+    position: relative;
 }
 /*===================reusable========================*/
 /*fonts*/
@@ -268,19 +269,22 @@ figcaption span{
 aside{
     width:13.125rem;
     height: 59.23rem;
-    border: 1px solid green;
-    font-size: 0.875rem;
-    float: right;   
+    font-size: 0.85rem;
+    font:  'NYTImperial';
+    position: absolute;
+    top: 29%;
+    left: 82%;
 }
 
-#aside-container{
+.aside-container{
   display: grid;
-  grid-template-columns: 50% 50%;
-  align-self: center;
+  grid-template-columns: 40% 60%;
+  margin-top: 1.25rem; 
 }
 
 #editor{
     border-bottom: 1px solid gray;
+    padding:
 }
 .aside-img{
   width:  75px;
@@ -293,5 +297,16 @@ aside{
 .img-1{
     background-image: url(/assets/26mag-Relampago-Web-Image-square640.jpg);
 }
+.img-2{
+    background-image: url(/assets/26mag-Migratiion-Images-square640.jpg);
+}
+.img-3{
+    background-image: url(/assets/22fakedeath-square640-v3.jpg);
+}
+.img-4{
+    background-image: url(https://tpc.googlesyndication.com/simgad/6075458894681406294?);
+}
 
-
+aside p{
+    margin: 0;
+}
