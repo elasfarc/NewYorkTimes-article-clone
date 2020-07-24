@@ -1,3 +1,36 @@
+@font-face {
+    font-family: 'NYTFranklin';
+    src: url('../fonts/NYTFranklin-Light.woff2') format('woff2'),
+        url('../fonts/NYTFranklin-Light.woff') format('woff'),
+        url('../fonts/NYTFranklin-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NYTImperial';
+    src: url('../fonts/NYTImperial-Regular.woff2') format('woff2'),
+        url('../fonts/NYTImperial-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NYTCheltenham';
+    src: url('../fonts/NYTCheltenham-BoldItalic.woff2') format('woff2'),
+        url('../fonts/NYTCheltenham-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NYTFranklin';
+    src: url('../fonts/NYTFranklin-Bold.woff2') format('woff2'),
+        url('../fonts/NYTFranklin-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
 /*===================reset========================*/
 
 body, nav, div{
@@ -17,6 +50,8 @@ body{
     width:100%;
 }
 /*===================reusable========================*/
+/*fonts*/
+
 /*flex display*/
 .flex{
     display: flex;
@@ -39,8 +74,9 @@ body{
 
 /* article section*/
 .article{
+    font-family: 'NYTImperial';
     border: 1px solid #00FFFF;
-    width: 37.5rem;
+    width: 46.584vw;
     margin: 0 auto;
     color: hsl(0, 0%, 20%);
     font-size:1.25rem;
@@ -57,6 +93,9 @@ body{
     padding: 5px 7px;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
     
 }
 
@@ -93,6 +132,7 @@ login-subscribe-btns{
 }
 
 .main-title-fig h4{
+    font-family:'NYTCheltenham';
     border: 1px solid black;
     margin: 0 auto;
     margin-bottom:1.5rem;
@@ -111,6 +151,7 @@ figure img{
 }
     
 figcaption{
+    font-family: 'nyt-imperial';
     color: #666666;
     font-size:0.9375rem;
     line-height:1.25rem;
@@ -151,10 +192,76 @@ figcaption span{
 }
 
 /*img inflation */
-#img-in{
-    width: 100%;
-    
-    
+.inflationBOX{
+    /*border: 15px solid red;*/
+    width:80vw;
+    height: 65vw;
+    max-height:65vw;
+    margin: 0 auto;
+}
+.inflation-head h3{
+    font-family: 'NYTCheltenham';
+}
+
+.inflation-head span{
+    display: inline-block;
+    color: #666666;
+    font-size:0.875rem;
+    line-height: 1.125rem;
+    margin-top:-17px;
+}
+.inflationDIV{
+    /*border: 1px solid Magenta;*/
+    background-image: url(https://bit.ly/30HSkba);
+    background-size:contain;
+    background-repeat: no-repeat;
+    height:47rem;
+    position:relative;
+    overflow: hidden;
+}
+.inflationDIV img{
+    width:93.901vw;
+    height: 70.540vw;
+}
+
+.row1p p, .row2p p{
+    font-family: 'NYTFranklin';
+    font-size:1.087vw;
+    line-height:1.320vw;
+    vertical-align: baseline;
+    text-align: start;
+    /*float: left;*/
+    width: 16vw;
+    height: 8.696vw;
+    position: absolute;
+    /*display: inline-block;*/
+    /*margin-left: 3%;*/
+}
+.row1p p span, .row2p p span{
+    font-family:'NYTFranklin' ;
+    font-weight: bold;
+}
+.row1p p{
+     /*border: 1px solid red;*/
+    top:12.422vw;
+}
+.row2p p{
+    top:35.031vw;
+    /*margin-bottom:20%;
+    border: 1px solid Purple;*/
+}
+
+#r1c1, #r2c1{
+    left:0;
+}
+#r1c2, #r2c2{
+    left:25%;
+}
+#r1c3, #r2c3{
+    left:52%;
+}
+#r1c4 , #r2c4{
+    left:62.112vw;
 }
 
 /*aside*/
