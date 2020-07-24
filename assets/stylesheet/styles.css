@@ -58,6 +58,15 @@ body{
     display: flex;
     
 }
+/* icons*/
+
+.icon{
+  font-size: 1.063rem;
+  color: black;
+  border-radius: 100%;
+  background: rgb(207, 203, 203);
+  padding:5px;
+}
 
 /*center element*/
 .center{
@@ -168,7 +177,7 @@ figcaption span{
 }
 
 #author{
-    width: 600px;
+    width: 46.8vw;
     align-self: center;
     border: 1px solid blue;
     margin: 0 auto;
@@ -177,6 +186,9 @@ figcaption span{
     margin-left: 0px;
 }
 
+.date-share ul{
+    padding: 0px;
+}
 .date-share ul li{
     list-style: none;
     display: inline;
@@ -185,11 +197,30 @@ figcaption span{
 }
 .date-share ul li a{
     text-decoration: none;
+    
 }
 
 #time {
-    margin-right: 40%;
+    margin-right: 19.84375vw;
     
+}
+
+#icon-mark {
+    font-size: 1.5rem;
+    color: black;
+}
+#icon-box{
+    font-size: 1.65rem;
+    text-align: center;
+    color: black;
+}
+
+#icon-num{
+  font-size: 12px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  background: transparent;
 }
 
 /*img inflation */
@@ -309,4 +340,34 @@ aside{
 
 aside p{
     margin: 0;
+}
+
+/* footer*/
+footer{
+    border: 1px solid peru;
+}
+#footer-header{
+    width: 100vw;
+    height: 46px;
+    margin: 0 1.9vw;
+}
+
+#footer-main-sect{
+    width: 100%;
+    height:78.4vh;
+    display: grid;
+    grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+    margin: 0 1.9vw;
+}
+.section{
+
+}
+.section ul{
+    list-style: none;
+    padding: 0;
+    
+} 
+
+.section ul li{
+    margin-top: 9px;
 }
