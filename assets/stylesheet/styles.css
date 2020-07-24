@@ -141,16 +141,18 @@ login-subscribe-btns{
     height: 6rem;
     
 }
-
+/*============== fig =============*/
 figure {
     border: 1px solid brown;
     margin:0 10.5rem;
 }
 figure img{
-    width: 59rem;
-    height: 33.25rem;
+    /*width: 59rem;
+    height: 33.25rem;*/
+    width: 102%;
+    height:auto;
 }
-    
+
 figcaption{
     font-family: 'nyt-imperial';
     color: #666666;
@@ -160,13 +162,14 @@ figcaption{
     height: 3.625rem;
     margin: 0.625rem 1.25rem 0 0;
     text-align: left;
+    max-width: 100%;
 }
 
 figcaption span{
     color: hsl(0,0%,53%);
     font-size:0.8125;
 }
-
+/*============== fig =============*/
 #author{
     width: 600px;
     align-self: center;
@@ -295,13 +298,13 @@ aside{
   background-position: center;
 }
 .img-1{
-    background-image: url(/assets/26mag-Relampago-Web-Image-square640.jpg);
+    background-image: url(../26mag-Relampago-Web-Image-square640.jpg);
 }
 .img-2{
-    background-image: url(/assets/26mag-Migratiion-Images-square640.jpg);
+    background-image: url(../26mag-Migratiion-Images-square640.jpg);
 }
 .img-3{
-    background-image: url(/assets/22fakedeath-square640-v3.jpg);
+    background-image: url(../22fakedeath-square640-v3.jpg);
 }
 .img-4{
     background-image: url(https://tpc.googlesyndication.com/simgad/6075458894681406294?);
@@ -310,3 +313,4 @@ aside{
 aside p{
     margin: 0;
 }
+
