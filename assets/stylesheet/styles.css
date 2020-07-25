@@ -150,19 +150,17 @@ login-subscribe-btns{
     height: 6rem;
     
 }
-/*============== fig =============*/
-figure {
     border: 1px solid brown;
     margin:0 10.5rem;
 }
-figure img{
+.article-figure img{
     /*width: 59rem;
     height: 33.25rem;*/
     width: 102%;
     height:auto;
 }
 
-figcaption{
+.article-figure figcaption{
     font-family: 'nyt-imperial';
     color: #666666;
     font-size:0.9375rem;
@@ -172,13 +170,22 @@ figcaption{
     margin: 0.625rem 1.25rem 0 0;
     text-align: left;
     max-width: 100%;
+    border:1px solid black;
 }
 
 figcaption span{
     color: hsl(0,0%,53%);
     font-size:0.8125;
 }
-/*============== fig =============*/
+/*============== id="figure2"=============*/
+#figure2{
+    width:100%;
+    margin:0 auto;
+}
+#figure2 img{
+    width: 102%;
+    height: auto;
+}
 #author{
     width: 46.8vw;
     align-self: center;
@@ -298,15 +305,17 @@ figcaption span{
 #r1c4 , #r2c4{
     left:62.112vw;
 }
-
-/*aside*/
-aside{
+/* ======= ===========   ================ */
+            /*  <aside> */
+/* =====   ==========     ================*/
+             /*MAIN aside*/
+.main-aside{
     width:13.125rem;
     height: 59.23rem;
     font-size: 0.85rem;
     font:  'NYTImperial';
     position: absolute;
-    top: 29%;
+    top: 18%;
     left: 82%;
 }
 
@@ -340,13 +349,118 @@ aside{
 .img-4{
     background-image: url(https://tpc.googlesyndication.com/simgad/6075458894681406294?);
 }
-
 aside p{
     margin: 0;
 }
 
-<<<<<<< HEAD
-/* footer*/
+ /* ======= ===========   ================ */
+            /*  suggested-articles */
+/* =====   ==========     ================*/
+
+/*suggested-articles-section*/
+
+.suggested-articles{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: 
+        "section section section aside";
+}
+.suggested-articles a {
+    text-decoration: none;
+    color: #666666;
+}
+
+.suggested-articles-section{
+    grid-area: section;
+     border: 1px solid red;
+}
+.suggested-articles-section img{
+    width: 21.196vw;
+    height: 14.130vw;
+    border: 1px solid blue;
+}
+
+.suggested-articles-box{
+    border: 1px solid green;
+    width: 32%;
+     margin:0;
+    padding:0;
+}
+
+.box figure{
+    margin:0 auto;
+}
+
+/*suggested-articles-aside*/
+
+.suggested-articles-aside{
+    grid-area: aside;
+}
+
+.aside-content p{
+    display: block;
+    padding: 15px 0;
+    border-bottom: 1px solid rgb(222,222,222);
+    color: #333;
+    font-family: 'NYTFranklin', 'georgia', "times new roman", 'times', serif;
+    line-height:23px;
+    vertical-align: baseline;
+    font-weight: 700;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.space-astronomy{
+    grid-area: space-astronomy;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 
+        "box box box"
+        "box box box";
+}
+.suggested-articles-box{
+    grid-area: box;
+}
+.space-astronomy header{
+    border: 1px solid black;
+    grid-area: header;
+}
+
+.editors-picks{
+    grid-area: editors-picks;
+}
+
+
+/* ======= ===========   ================ */
+               /* footer*/
+/* =====   ==========     ================*/
+
 footer{
     border: 1px solid peru;
 }
@@ -375,5 +489,4 @@ footer{
 .section ul li{
     margin-top: 9px;
 }
-=======
->>>>>>> dd474c6386ffae36d557620c623a562cdf5d8afc
+
