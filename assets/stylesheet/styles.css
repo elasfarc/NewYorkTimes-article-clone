@@ -345,7 +345,6 @@ aside p{
     margin: 0;
 }
 
-<<<<<<< HEAD
 /* footer*/
 footer{
     border: 1px solid peru;
@@ -353,18 +352,27 @@ footer{
 #footer-header{
     width: 100vw;
     height: 46px;
-    margin: 0 1.9vw;
+    margin: 0 5vw;
+}
+
+#footer-header img{
+    height: 30px;
 }
 
 #footer-main-sect{
     width: 100%;
-    height:78.4vh;
+    height: 67vh;
     display: grid;
-    grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
-    margin: 0 1.9vw;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    margin: 0 5vw;
 }
+
 .section{
 
+}
+.subs{
+    padding-left: 10px;
+    border-left: 0.094rem solid rgb(218, 215, 215);
 }
 .section ul{
     list-style: none;
@@ -375,5 +383,44 @@ footer{
 .section ul li{
     margin-top: 9px;
 }
-=======
->>>>>>> dd474c6386ffae36d557620c623a562cdf5d8afc
+
+.section ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.section ul li a:hover{
+    text-decoration: underline;
+}
+
+.img-icon{
+    width: 16px;
+    height: 16px;
+    
+}
+
+#top-small{
+    padding-top: 0.625rem;
+}
+
+#last-small{
+    border-bottom: 0.094rem  solid rgb(218, 215, 215);
+    padding-bottom: 3px;
+}
+
+#footer-b{
+    width: 90vw;
+    height: 66px;
+    margin-top: 5px;
+    border-top: 0.094rem  solid rgb(218, 215, 215);
+}
+
+#l-f-b  li{
+    display: inline; 
+    font-size: 0.85rem;
+    margin: 0.4rem;     
+}
+#l-f-b  li a{
+    color: rgb(85, 84, 84);
+    
+}
