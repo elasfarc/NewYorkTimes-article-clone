@@ -83,6 +83,10 @@ body{
   background: rgb(207, 203, 203);
   padding:5px;
 }
+.icon:hover{
+    background: white;
+    border: 1.5px solid rgb(207, 203, 203);
+}
 
 /*center element*/
 .center{
@@ -572,13 +576,15 @@ figcaption span{
                /* footer*/
 /* =====   ==========     ================*/
 
-footer{
-    /*border: 1px solid peru;*/
+#footer-main{
+    margin-top: 2.563vw;
 }
 #footer-header{
     width: 100vw;
     height: 46px;
     margin: 0 5vw;
+    border-top: 4px double rgb(226, 226, 226);
+    padding-top: 0.781vw;
 }
 
 #footer-header img{
@@ -593,9 +599,7 @@ footer{
     margin: 0 5vw;
 }
 
-.section{
 
-}
 .subs{
     padding-left: 10px;
     border-left: 0.094rem solid rgb(218, 215, 215);
@@ -695,16 +699,16 @@ footer{
 /*article-comment-share*/
 
 .article-comment-share{
-    border:1px solid black;
-    width:54.688vw;
+    border: 1px solid black;
+    width: 52.5vw;
     justify-content: space-between;
     align-items: center;
-    
+    margin-bottom: 5.078vw;
 }
 
 #comment-btn{
-    width:25.781vw;
-    height:2.813vw;
+    width: 24vw;
+    height: 2.813vw;
     color:#ffffff;
     background-color:#326891;
     font-family:'NYTFranklin';
@@ -715,6 +719,10 @@ footer{
     padding: 5px 0;
     margin:0;
     text-align: center;
+    border-radius: 5px;
+}
 
+.comment-list{
+    text-decoration: none;
 }
 
