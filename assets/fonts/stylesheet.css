@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'NYTFranklin';
-    src: url('NYTFranklin-Bold.woff2') format('woff2'),
-        url('NYTFranklin-Bold.woff') format('woff');
-    font-weight: bold;
+    font-family: 'FB Web Use Only';
+    src: url('Munged-FeRJttgytI.woff2') format('woff2'),
+        url('Munged-FeRJttgytI.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
