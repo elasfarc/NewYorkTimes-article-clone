@@ -443,6 +443,13 @@ body{
  
 }
 
+.aside-container .aside-img{
+    cursor: pointer;
+}
+
+.aside-container .aside-text{
+    cursor: pointer;
+}
 #editor{
     border-bottom: 1px solid rgb(222,222,222);
     font-family: 'NYTFranklin';
@@ -629,20 +636,22 @@ body{
 /* =====   ==========     ================*/
 
 #footer-main{
-    width: 90%;
+    width: 95%;
     box-sizing: border-box;
     margin: 0 auto;
     margin-top: 2.563vw;
     
 }
 #footer-header{
-    margin: 0 5vw;
+    margin: 0 1vw;
     border-top: 4px double rgb(226, 226, 226);
     padding-top: 0.781vw;
 }
 
 #footer-header img{
     height: 30px;
+    position: absolute;
+    left:2.7%;
 }
 
 #footer-main-sect{
@@ -652,10 +661,21 @@ body{
     
 }
 
+#more-section{
+    border-right: 0.5px solid rgb(222, 222, 222);
+}
 
 .subs{
-    padding-left: 10px;
-    border-left: 0.094rem solid rgb(218, 215, 215);
+    width:15.484vw;
+    position:absolute;
+    left: 82.6%;
+   
+}
+.section{
+    font-family:'NYTFranklin';
+    font-size:1.094vw;
+    line-height:1.250vw;
+    padding:10px 0;
 }
 .section ul{
     list-style: none;
@@ -677,8 +697,9 @@ body{
 }
 
 .img-icon{
-    width: 16px;
-    height: 16px;
+    max-width: 16px;
+    max-height: 16px;
+    margin-left:7px;
     
 }
 
@@ -687,15 +708,21 @@ body{
 }
 
 #last-small{
-    border-bottom: 0.094rem  solid rgb(218, 215, 215);
+    border-bottom: 0.5px solid rgb(222, 222, 222);
     padding-bottom: 3px;
 }
 
 #footer-b{
     width: 90vw;
     height: 66px;
-    margin-top: 5px;
+    margin-top: -5px;
     border-top: 0.094rem  solid rgb(218, 215, 215);
+    font-family:'NYTFranklin';
+    font-size:0.859vw;
+    line-height:1.563vw;
+    padding:10px 0;
+    text-align: center;
+    
 }
 
 #l-f-b  li{
@@ -721,15 +748,15 @@ body{
     
     font-family: 'nyt-imperial';
     color: #666666;
-    font-size:1.4vw;
-    line-height:1.563vw;
+    font-size:15px;
+    line-height:20px;
     /*width: 45rem;
     height: 3.625rem;
     margin: 0.625rem 1.25rem 0 0;*/
     text-align: left;
     max-width: 100%;
   
-    margin-top: 3px;
+    margin-top: 7px;
    
     
 }
