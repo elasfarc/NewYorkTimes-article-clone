@@ -624,73 +624,18 @@ body{
     font-size:1.406vw;
 }
 
-
-
-width:20.547vw;
-    color: hsl(0, 0%, 7%);
-    font-family:'NYTCheltenham';
-    font-size:1.406vw;
-    
-    
-    margin:0;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-.space-astronomy{
-    grid-area: space-astronomy;
-    border: 1px solid black;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-areas: 
-        "box box box"
-        "box box box";
-}
-.suggested-articles-box{
-    grid-area: box;
-}
-.space-astronomy header{
-    border: 1px solid black;
-    grid-area: header;
-}
-
-.editors-picks{
-    grid-area: editors-picks;
-}
-
-
 /* ======= ===========   ================ */
                /* footer*/
 /* =====   ==========     ================*/
 
 #footer-main{
+    width: 90%;
     box-sizing: border-box;
+    margin: 0 auto;
     margin-top: 2.563vw;
-     width: 90%;
+    
 }
 #footer-header{
-   
-    /*height: 46px;*/
     margin: 0 5vw;
     border-top: 4px double rgb(226, 226, 226);
     padding-top: 0.781vw;
@@ -701,11 +646,10 @@ width:20.547vw;
 }
 
 #footer-main-sect{
-    width: 99%;
-    /*height: 67vh;*/
+    width: 100%;
     display: grid;
-    grid-template-columns: 15% 15% 15% 15% 15% 15%;
-    margin: 0 5vw;
+    grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+    
 }
 
 
