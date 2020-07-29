@@ -134,7 +134,7 @@ body {
   font-family: 'NYTFranklin', sans-serif;
   font-size: 12px;
   line-height: 16px;
-  margin: 20 0 -12px;
+  margin: 20px 0 -12px;
   padding: 5px;
 }
 
@@ -187,7 +187,7 @@ body {
   border-radius: 3%;
   background-color: #326891;
   color: #fff;
-  font-family: 'NYTFranklin';
+  font-family: 'NYTFranklin', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 0.859vw;
@@ -200,7 +200,7 @@ body {
   background-color: transparent;
   outline: none;
   border: none;
-  }
+}
 
 .login-subscribe-btns button:first-child {
   width: 9.297vw;
@@ -250,8 +250,9 @@ body {
   height: auto;
 }
 
-.article-figure figcaption, #figure2 figcaption {
-  font-family: 'nyt-imperial';
+.article-figure figcaption,
+#figure2 figcaption {
+  font-family: 'nyt-imperial', sans-serif;
   color: #666;
   font-size: 1rem;
   line-height: 1.25rem;
@@ -295,11 +296,12 @@ body {
 }
 
 #date-list {
-  margin: 0px;
-  padding: 0em;
+  margin: 0;
+  padding: 0;
 }
 
-.date-share ul li, .article-comment-share ul li {
+.date-share ul li,
+.article-comment-share ul li {
   list-style: none;
   display: inline;
   margin-right: 12px;
@@ -313,7 +315,7 @@ body {
   color: black;
   padding: 0 0 0 5px;
   font-weight: lighter;
-  font-size: 2.250vw;
+  font-size: 2.25vw;
   background-color: transparent;
   height: 2.344vw;
   width: 2.344vw;
@@ -322,9 +324,9 @@ body {
 #num-com {
   display: inline-block;
   color: black;
-  margin: -3px 0px 0px 0px;
+  margin: -3px 0 0 0;
   padding: 0 0 0 0;
-  font-family:'FB Web Use Only', sans-serif;
+  font-family: 'FB Web Use Only', sans-serif;
   font-size: 0.938vw;
 }
 
@@ -375,7 +377,7 @@ body {
 .row1p p, .row2p p {
   font-family: 'NYTFranklin', sans-serif;
   font-size: 1.087vw;
-  line-height: 1.320vw;
+  line-height: 1.32vw;
   vertical-align: baseline;
   text-align: start;
   width: 16vw;
@@ -383,10 +385,12 @@ body {
   position: absolute;
 }
 
-.row1p p span, .row2p p span {
+.row1p p span,
+.row2p p span {
   font-family: 'NYTFranklin', sans-serif;
   font-weight: bold;
 }
+
 .row1p p {
   top: 12.422vw;
 }
@@ -395,28 +399,32 @@ body {
   top: 35.031vw;
 }
 
-#r1c1, #r2c1 {
+#r1c1,
+#r2c1 {
   left: 0;
 }
 
-#r1c2, #r2c2 {
-  left:25%;
+#r1c2,
+#r2c2 {
+  left: 25%;
 }
 
-#r1c3, #r2c3 {
+#r1c3,
+#r2c3 {
   left: 52%;
 }
 
-#r1c4 , #r2c4 {
+#r1c4,
+#r2c4 {
   left: 62.112vw;
 }
 
-/*shorten Inflation footer's top border*/
+/* shorten Inflation footer's top border */
 
-#inflation-footer:before {
+#inflation-footer::before {
   content: "";
   display: block;
-  border-top:0.5px solid black;
+  border-top: 0.5px solid black;
   width: 17%;
   margin-bottom: 1.875vw;
 }
@@ -441,8 +449,8 @@ body {
 .main-aside {
   width: 13.125rem;
   height: 59.23rem;
+  font-family: 'NYTImperial', sans-serif;
   font-size: 0.85rem;
-  font:  'NYTImperial';
   position: absolute;
   top: 18%;
   left: 82%;
@@ -474,7 +482,7 @@ body {
 
 .aside-img {
   width: 80px;
-  height: 77;
+  height: 77px;
   border: 1px solid black;
   background-repeat: no-repeat;
   background-size: cover;
@@ -499,7 +507,7 @@ body {
 }
 
 .main-aside p {
-  margin: 1.055vw 0px 1.055vw 0.781vw;
+  margin: 1.055vw 0 1.055vw 0.781vw;
   font-family: 'FB Web Use Only', sans-serif;
   font-size: 1.094vw;
   line-height: 1.328vw;
@@ -517,7 +525,7 @@ body {
   width: 95%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-areas: "section section section aside";
 }
 
@@ -526,7 +534,7 @@ body {
   color: #666;
 }
 
-.suggested-articles-section :before {
+.suggested-articles-section::before {
   content: "";
   display: block;
   width: 94.8%;
@@ -537,7 +545,7 @@ body {
   grid-area: section;
 }
 
-.space-astronomy:after {
+.space-astronomy::after {
   content: "";
   display: block;
   width: 94.8%;
@@ -560,7 +568,7 @@ body {
 .suggested-articles-section img {
   box-sizing: border-box;
   width: 21.196vw;
-  height: 14.130vw;
+  height: 14.13vw;
 }
 
 .box figure {
@@ -574,10 +582,10 @@ body {
   font-family: 'FB Web Use Only', sans-serif;
   font-size: 0.781vw;
   line-height: 0.961vw;
+  margin: 3px 0 0;
   margin-top: 0.234vw;
   text-align: right;
-  margin: 3px 0px 0px;
-  padding: 0px 0px 4px;
+  padding: 0 0 4px;
   text-transform: capitalize;
 }
 
@@ -591,6 +599,7 @@ body {
   margin: 0;
   cursor: pointer;
 }
+
 .box div {
   color: #999;
   font-family: 'NYTFranklin', sans-serif;
@@ -604,11 +613,13 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .space-astronomy-box-wrap-row1 {
   padding-bottom: 6vw;
 }
 
-.space-astronomy-box-wrap-row2, .suggested-articles-box-wrap {
+.space-astronomy-box-wrap-row2,
+.suggested-articles-box-wrap {
   padding-bottom: 1.563vw;
 }
 
@@ -754,10 +765,10 @@ body {
 /* YT figure */
 
 #YT-video {
-  margin-block-start: 0em;
-  margin-block-end: 0em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 }
 
 #YT-video figcaption {
