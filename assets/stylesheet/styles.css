@@ -90,6 +90,65 @@ body {
 .article a:hover {
   text-decoration: underline;
 }
+#author p {
+  color: #333;
+  font-family: 'NYTFranklin', sans-serif;
+  font-size: 1.172vw;
+  line-height: 1.563vw;
+  letter-spacing: 0.023vw;
+  font-weight: 700;
+}
+
+#date-list {
+  margin: 0;
+  padding: 0;
+}
+
+.date-share ul li,
+.article-comment-share ul li {
+  list-style: none;
+  display: inline;
+  margin-right: 12px;
+}
+
+.date-share ul li a {
+  text-decoration: none;
+}
+
+#box-n {
+  color: black;
+  padding: 0 0 0 5px;
+  font-weight: lighter;
+  font-size: 2.25vw;
+  background-color: transparent;
+  height: 2.344vw;
+  width: 2.344vw;
+}
+
+#num-com {
+  display: inline-block;
+  color: black;
+  margin: -3px 0 0 0;
+  padding: 0 0 0 0;
+  font-family: 'FB Web Use Only', sans-serif;
+  font-size: 0.938vw;
+}
+
+#icon-mark {
+  font-size: 1.8vw;
+  color: black;
+}
+
+#time {
+  width: 55%;
+  float: left;
+  font-family: 'NYTFranklin', sans-serif;
+  font-size: 0.981vw;
+  margin: 0 auto;
+  padding-top: 8px;
+}
+
+/* ============================ */
 
 /* subscribe div inside the 2nd part of the article */
 
@@ -286,65 +345,8 @@ body {
   margin-bottom: 1vw;
 }
 
-#author p {
-  color: #333;
-  font-family: 'NYTFranklin', sans-serif;
-  font-size: 1.172vw;
-  line-height: 1.563vw;
-  letter-spacing: 0.023vw;
-  font-weight: 700;
-}
 
-#date-list {
-  margin: 0;
-  padding: 0;
-}
-
-.date-share ul li,
-.article-comment-share ul li {
-  list-style: none;
-  display: inline;
-  margin-right: 12px;
-}
-
-.date-share ul li a {
-  text-decoration: none;
-}
-
-#box-n {
-  color: black;
-  padding: 0 0 0 5px;
-  font-weight: lighter;
-  font-size: 2.25vw;
-  background-color: transparent;
-  height: 2.344vw;
-  width: 2.344vw;
-}
-
-#num-com {
-  display: inline-block;
-  color: black;
-  margin: -3px 0 0 0;
-  padding: 0 0 0 0;
-  font-family: 'FB Web Use Only', sans-serif;
-  font-size: 0.938vw;
-}
-
-#icon-mark {
-  font-size: 1.8vw;
-  color: black;
-}
-
-#time {
-  width: 55%;
-  float: left;
-  font-family: 'NYTFranklin', sans-serif;
-  font-size: 0.981vw;
-  margin: 0 auto;
-  padding-top: 8px;
-}
-
-/* img inflation */
+/* ============img inflation================= */
 
 .inflationBOX {
   width: 80vw;
