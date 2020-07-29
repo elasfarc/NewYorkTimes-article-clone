@@ -1,6 +1,8 @@
 /*  ===================reset========================  */
 
-body, nav, div {
+body,
+nav,
+div {
   margin: 0;
 }
 
@@ -12,7 +14,7 @@ html {
 
 body {
   background-color: rgb(255, 255, 255);
-  font-family: 'Georgia';
+  font-family: 'Georgia', sans-serif;
 }
 
 .wrapper {
@@ -68,7 +70,7 @@ body {
 /* article section */
 
 .article {
-  font-family: 'NYTImperial';
+  font-family: 'NYTImperial', sans-serif;
   margin: 0 auto;
   margin-bottom: 1.8vw;
   margin-top: 2.359vw;
@@ -93,7 +95,7 @@ body {
 
 #subscribe {
   height: 5.938vw;
-  font-family: 'NYTFranklin';
+  font-family: 'NYTFranklin', sans-serif;
   font-size: 1.172vw;
   font-weight: bold;
   line-height: 19px;
@@ -102,7 +104,7 @@ body {
 
 /* add the shorten border top before the subscribe div */
 
-#subscribe :before {
+#subscribe ::before {
   content: "";
   display: block;
   margin: 0 auto;
@@ -113,7 +115,7 @@ body {
 
 /*  add the shorten border top after the subscribe div  */
 
-#subscribe:after {
+#subscribe::after {
   content: "";
   display: block;
   margin: 0 auto;
@@ -129,7 +131,7 @@ body {
   width: 46.875vw;
   height: 2.5vw;
   color: #666;
-  font-family: 'NYTFranklin';
+  font-family: 'NYTFranklin', sans-serif;
   font-size: 12px;
   line-height: 16px;
   margin: 20 0 -12px;
@@ -230,7 +232,7 @@ body {
 }
 
 .main-title-fig h4 {
-  font-family: 'NYTCheltenham';
+  font-family: 'NYTCheltenham', sans-serif;
   margin: 0 auto;
   margin-bottom: 1.5rem;
   margin-top: 3.3vw;
@@ -285,7 +287,7 @@ body {
 
 #author p {
   color: #333;
-  font-family: 'NYTFranklin';
+  font-family: 'NYTFranklin', sans-serif;
   font-size: 1.172vw;
   line-height: 1.563vw;
   letter-spacing: 0.023vw;
@@ -322,7 +324,7 @@ body {
   color: black;
   margin: -3px 0px 0px 0px;
   padding: 0 0 0 0;
-  font-family:'FB Web Use Only';
+  font-family:'FB Web Use Only', sans-serif;
   font-size: 0.938vw;
 }
 
@@ -334,7 +336,7 @@ body {
 #time {
   width: 55%;
   float: left;
-  font-family: 'NYTFranklin';
+  font-family: 'NYTFranklin', sans-serif;
   font-size: 0.981vw;
   margin: 0 auto;
   padding-top: 8px;
@@ -350,7 +352,7 @@ body {
 }
 
 .inflation-head h3 {
-  font-family: 'NYTCheltenham';
+  font-family: 'NYTCheltenham', sans-serif;
 }
 
 .inflation-head span {
@@ -371,7 +373,7 @@ body {
 }
 
 .row1p p, .row2p p {
-  font-family: 'NYTFranklin';
+  font-family: 'NYTFranklin', sans-serif;
   font-size: 1.087vw;
   line-height: 1.320vw;
   vertical-align: baseline;
@@ -382,7 +384,7 @@ body {
 }
 
 .row1p p span, .row2p p span {
-  font-family: 'NYTFranklin';
+  font-family: 'NYTFranklin', sans-serif;
   font-weight: bold;
 }
 .row1p p {
@@ -422,7 +424,7 @@ body {
 #inflation-footer {
   position: absolute;
   top: 88%;
-  font-family: 'NYTFranklin';
+  font-family: 'NYTFranklin', sans-serif;
   font-size: 1.094vw;
   line-height: 1.406vw;
   margin: 0 0 14px;
@@ -462,7 +464,7 @@ body {
 
 #editor {
   border-bottom: 1px solid rgb(222, 222, 222);
-  font-family: 'NYTFranklin';
+  font-family: 'NYTFranklin', sans-serif;
   font-size: 1.094vw;
   line-height: 1.094vw;
   letter-spacing: 0.28px;
@@ -498,7 +500,7 @@ body {
 
 .main-aside p {
   margin: 1.055vw 0px 1.055vw 0.781vw;
-  font-family: 'FB Web Use Only';
+  font-family: 'FB Web Use Only', sans-serif;
   font-size: 1.094vw;
   line-height: 1.328vw;
 }
@@ -544,7 +546,7 @@ body {
 
 .suggested-articles-section header p {
   color: black;
-  font-family: 'NYTFranklin';
+  font-family: 'NYTFranklin', sans-serif;
   font-size: 1.25vw;
   font-weight: bold;
   line-height: 1.719vw;
@@ -569,7 +571,7 @@ body {
 
 .box figcaption {
   color: #999;
-  font-family: 'FB Web Use Only';
+  font-family: 'FB Web Use Only', sans-serif;
   font-size: 0.781vw;
   line-height: 0.961vw;
   margin-top: 0.234vw;
@@ -582,7 +584,7 @@ body {
 .box h3 {
   width: 20.547vw;
   color: hsl(0, 0%, 7%);
-  font-family: 'NYTCheltenham';
+  font-family: 'NYTCheltenham', sans-serif;
   font-size: 1.406vw;
   line-height: 1.719vw;
   font-weight: 500;
@@ -591,7 +593,7 @@ body {
 }
 .box div {
   color: #999;
-  font-family: 'NYTFranklin';
+  font-family: 'NYTFranklin', sans-serif;
   font-size: 0.938vw;
   line-height: 1.563vw;
   letter-spacing: 0.023vw;
@@ -624,7 +626,7 @@ body {
 
 .suggested-articles-aside header h2 {
   color: black;
-  font-family: 'NYTFranklin';
+  font-family: 'NYTFranklin', sans-serif;
   font-size: 1.25vw;
   font-weight: bold;
   line-height: 1.719vw;
@@ -640,7 +642,7 @@ body {
   display: block;
   padding: 5px 0;
   color: #333;
-  font-family: 'NYTCheltenham', 'georgia', 'times new roman', 'times', serif;
+  font-family: 'NYTCheltenham', 'georgia', 'times new roman', 'times', serif, sans-serif;
   line-height: 1.719vw;
   vertical-align: baseline;
   font-weight: 500;
@@ -689,7 +691,7 @@ body {
 }
 
 .section {
-  font-family: 'NYTFranklin';
+  font-family: 'NYTFranklin', sans-serif;
   font-size: 1.094vw;
   line-height: 1.25vw;
   padding: 10px 0;
@@ -732,7 +734,7 @@ body {
   height: 66px;
   margin-top: -5px;
   border-top: 0.094rem solid rgb(218, 215, 215);
-  font-family: 'NYTFranklin';
+  font-family: 'NYTFranklin', sans-serif;
   font-size: 0.859vw;
   line-height: 1.563vw;
   padding: 10px 0;
@@ -759,7 +761,7 @@ body {
 }
 
 #YT-video figcaption {
-  font-family: 'nyt-imperial';
+  font-family: 'nyt-imperial', sans-serif;
   color: #666;
   font-size: 15px;
   line-height: 20px;
@@ -771,7 +773,7 @@ body {
 /* ===================== */
 
 .bold-title-inside-article {
-  font-family: 'NYTImperial';
+  font-family: 'NYTImperial', sans-serif;
   font-size: 20px;
   line-height: 30px;
   font-weight: bold;
@@ -792,7 +794,7 @@ body {
   height: 2.813vw;
   color: #fff;
   background-color: #326891;
-  font-family: 'NYT Franklin';
+  font-family: 'NYT Franklin', sans-serif;
   font-size: 1.016vw;
   line-height: 1.875vw;
   vertical-align: middle;
