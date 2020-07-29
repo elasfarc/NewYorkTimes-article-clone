@@ -22,9 +22,12 @@ body {
   position: relative;
 }
 
-/* ===================reusable======================== */
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
-/* fonts */
+/* ===================reusable======================== */
 
 /* flex display */
 
@@ -201,6 +204,50 @@ body {
   color: #666;
 }
 
+/* suggested-articles-aside */
+
+.suggested-articles-aside {
+  grid-area: aside;
+  border-top: 1px solid rgb(0, 0, 0);
+}
+
+.suggested-articles-aside header h2 {
+  color: black;
+  font-family: 'NYTFranklin', sans-serif;
+  font-size: 1.25vw;
+  font-weight: bold;
+  line-height: 1.719vw;
+  margin: 1.663vw 0 1.406vw;
+}
+
+.aside-content {
+  border-top: 0.1px solid rgb(222, 222, 222);
+  border-bottom: 0.1px solid rgb(222, 222, 222);
+}
+
+.aside-content p {
+  display: block;
+  padding: 5px 0;
+  color: #333;
+  font-family: 'NYTCheltenham', 'georgia', 'times new roman', 'times', serif, sans-serif;
+  line-height: 1.719vw;
+  vertical-align: baseline;
+  font-weight: 500;
+  font-size: 1.406vw;
+}
+
+.date-share ul li a {
+  text-decoration: none;
+}
+
+.article-rights a:hover {
+  text-decoration: none;
+}
+
+.article-hover:hover {
+  text-decoration: underline;
+}
+
 .suggested-articles-section::before {
   content: "";
   display: block;
@@ -217,6 +264,13 @@ body {
   display: block;
   width: 94.8%;
   border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.main-aside p {
+  margin: 1.055vw 0 1.055vw 0.781vw;
+  font-family: 'FB Web Use Only', sans-serif;
+  font-size: 1.094vw;
+  line-height: 1.328vw;
 }
 
 .suggested-articles-section header p {
@@ -295,50 +349,6 @@ body {
   margin-bottom: 1.563vw;
 }
 
-/* suggested-articles-aside */
-
-.suggested-articles-aside {
-  grid-area: aside;
-  border-top: 1px solid rgb(0, 0, 0);
-}
-
-.suggested-articles-aside header h2 {
-  color: black;
-  font-family: 'NYTFranklin', sans-serif;
-  font-size: 1.25vw;
-  font-weight: bold;
-  line-height: 1.719vw;
-  margin: 1.663vw 0 1.406vw;
-}
-
-.aside-content {
-  border-top: 0.1px solid rgb(222, 222, 222);
-  border-bottom: 0.1px solid rgb(222, 222, 222);
-}
-
-.aside-content p {
-  display: block;
-  padding: 5px 0;
-  color: #333;
-  font-family: 'NYTCheltenham', 'georgia', 'times new roman', 'times', serif, sans-serif;
-  line-height: 1.719vw;
-  vertical-align: baseline;
-  font-weight: 500;
-  font-size: 1.406vw;
-}
-
-.date-share ul li a {
-  text-decoration: none;
-}
-
-.article-rights a:hover {
-  text-decoration: none;
-}
-
-.article-hover:hover {
-  text-decoration: underline;
-}
-
 /* shorten Inflation footer's top border */
 
 #inflation-footer::before {
@@ -356,13 +366,6 @@ body {
   font-size: 1.094vw;
   line-height: 1.406vw;
   margin: 0 0 14px;
-}
-
-.main-aside p {
-  margin: 1.055vw 0 1.055vw 0.781vw;
-  font-family: 'FB Web Use Only', sans-serif;
-  font-size: 1.094vw;
-  line-height: 1.328vw;
 }
 
 #author p {
@@ -559,6 +562,7 @@ body {
 
 .article-figure figcaption,
 #figure2 figcaption {
+    border: 1px solid blue;
   font-family: 'nyt-imperial', sans-serif;
   color: #666;
   font-size: 1rem;
@@ -674,6 +678,7 @@ body {
   box-sizing: border-box;
   margin: 0 auto;
   margin-top: 2.563vw;
+  color: black;
 }
 
 #footer-header {
@@ -718,11 +723,6 @@ body {
 
 .section ul li {
   margin-top: 9px;
-}
-
-.section ul li a {
-  text-decoration: none;
-  color: black;
 }
 
 .section ul li a:hover {
