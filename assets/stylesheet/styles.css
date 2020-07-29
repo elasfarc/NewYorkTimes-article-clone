@@ -87,102 +87,6 @@ body {
   text-decoration: none;
 }
 
-.article a:hover {
-  text-decoration: underline;
-}
-#author p {
-  color: #333;
-  font-family: 'NYTFranklin', sans-serif;
-  font-size: 1.172vw;
-  line-height: 1.563vw;
-  letter-spacing: 0.023vw;
-  font-weight: 700;
-}
-
-#date-list {
-  margin: 0;
-  padding: 0;
-}
-
-.date-share ul li,
-.article-comment-share ul li {
-  list-style: none;
-  display: inline;
-  margin-right: 12px;
-}
-
-.date-share ul li a {
-  text-decoration: none;
-}
-
-#box-n {
-  color: black;
-  padding: 0 0 0 5px;
-  font-weight: lighter;
-  font-size: 2.25vw;
-  background-color: transparent;
-  height: 2.344vw;
-  width: 2.344vw;
-}
-
-#num-com {
-  display: inline-block;
-  color: black;
-  margin: -3px 0 0 0;
-  padding: 0 0 0 0;
-  font-family: 'FB Web Use Only', sans-serif;
-  font-size: 0.938vw;
-}
-
-#icon-mark {
-  font-size: 1.8vw;
-  color: black;
-}
-
-#time {
-  width: 55%;
-  float: left;
-  font-family: 'NYTFranklin', sans-serif;
-  font-size: 0.981vw;
-  margin: 0 auto;
-  padding-top: 8px;
-}
-
-/* ============================ */
-
-/* subscribe div inside the 2nd part of the article */
-
-#subscribe {
-  height: 5.938vw;
-  font-family: 'NYTFranklin', sans-serif;
-  font-size: 1.172vw;
-  font-weight: bold;
-  line-height: 19px;
-  text-align: center;
-}
-
-/* add the shorten border top before the subscribe div */
-
-#subscribe ::before {
-  content: "";
-  display: block;
-  margin: 0 auto;
-  width: 5.625vw;
-  margin-bottom: 1.406vw;
-  border-top: 0.5px solid rgb(198, 198, 198);
-}
-
-/*  add the shorten border top after the subscribe div  */
-
-#subscribe::after {
-  content: "";
-  display: block;
-  margin: 0 auto;
-  width: 5.625vw;
-  margin-top: 1.406vw;
-  border-bottom: 1px solid rgb(198, 198, 198);
-}
-
 /* article right */
 
 .article-rights {
@@ -201,150 +105,6 @@ body {
   color: #666;
   text-decoration: underline;
 }
-
-.article-rights a:hover {
-  text-decoration: none;
-}
-
-#subscribe a:hover {
-  text-decoration: none;
-}
-
-/* ===================style the nav======================== */
-
-.main-nav {
-  box-sizing: border-box;
-  border-bottom: 1px solid rgb(226, 226, 226);
-  width: 100%;
-  height: 2.6875rem;
-  padding: 5px 7px;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  z-index: 1;
-  background-color: white;
-  margin: 0;
-}
-
-.main-logo {
-  font-size: 16px;
-  line-height: 16px;
-  margin-left: 33px;
-}
-
-/* left side btns */
-
-.login-subscribe-btns {
-  width: 15.15%;
-  justify-content: space-between;
-  margin-right: 0.781vw;
-}
-
-.login-subscribe-btns button {
-  height: 2rem;
-  border: none;
-  border-radius: 3%;
-  background-color: #326891;
-  color: #fff;
-  font-family: 'NYTFranklin', sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 0.859vw;
-  line-height: 0.859vw;
-  letter-spacing: 0.043vw;
-  cursor: pointer;
-}
-
-.menu-search button {
-  background-color: transparent;
-  outline: none;
-  border: none;
-}
-
-.login-subscribe-btns button:first-child {
-  width: 9.297vw;
-}
-
-.login-subscribe-btns button:last-child {
-  width: 4.922vw;
-}
-
-/* right side btns */
-
-.menu-search {
-  margin-left: 13px;
-  cursor: pointer;
-}
-
-.fa-bars {
-  margin-right: 0.9rem;
-  color: black;
-}
-
-/* ===================article title main img caption======================== */
-
-.main-title-fig {
-  background-color: rgb(255, 255, 255);
-  color: #121212;
-  margin-top: 1rem;
-  font-size: 2.5rem;
-}
-
-.main-title-fig h4 {
-  font-family: 'NYTCheltenham', sans-serif;
-  margin: 0 auto;
-  margin-bottom: 1.5rem;
-  margin-top: 3.3vw;
-  width: 37.5rem;
-  height: 6rem;
-  font-style: italic;
-}
-
-.article-figure {
-  margin: 0 10.5rem;
-}
-
-.article-figure img {
-  width: 102%;
-  height: auto;
-}
-
-.article-figure figcaption,
-#figure2 figcaption {
-  font-family: 'nyt-imperial', sans-serif;
-  color: #666;
-  font-size: 1rem;
-  line-height: 1.25rem;
-  width: 45rem;
-  height: 3.625rem;
-  margin: 7px 7px 0 0;
-  text-align: left;
-  max-width: 100%;
-}
-
-.article-figure figcaption span {
-  color: hsl(0, 0%, 53%);
-  font-size: 0.8125rem;
-}
-
-/* ============== id="figure2"============= */
-
-#figure2 {
-  width: 100%;
-  margin: 0 auto;
-}
-
-#figure2 img {
-  width: 102%;
-  height: auto;
-}
-
-#author {
-  width: 46.875vw;
-  height: auto;
-  margin-bottom: 1vw;
-}
-
 
 /* ============img inflation================= */
 
@@ -376,7 +136,8 @@ body {
   overflow: hidden;
 }
 
-.row1p p, .row2p p {
+.row1p p,
+.row2p p {
   font-family: 'NYTFranklin', sans-serif;
   font-size: 1.087vw;
   line-height: 1.32vw;
@@ -420,102 +181,6 @@ body {
 #r2c4 {
   left: 62.112vw;
 }
-
-/* shorten Inflation footer's top border */
-
-#inflation-footer::before {
-  content: "";
-  display: block;
-  border-top: 0.5px solid black;
-  width: 17%;
-  margin-bottom: 1.875vw;
-}
-
-#inflation-footer {
-  position: absolute;
-  top: 88%;
-  font-family: 'NYTFranklin', sans-serif;
-  font-size: 1.094vw;
-  line-height: 1.406vw;
-  margin: 0 0 14px;
-}
-
-/* ======= ===========   ================ */
-
-/* <aside> */
-
-/* =====   ==========     ================ */
-
-/* MAIN aside */
-
-.main-aside {
-  width: 13.125rem;
-  height: 59.23rem;
-  font-family: 'NYTImperial', sans-serif;
-  font-size: 0.85rem;
-  position: absolute;
-  top: 18%;
-  left: 82%;
-}
-
-.aside-container {
-  display: grid;
-  grid-template-columns: 40% 60%;
-  margin-top: 1.25rem;
-}
-
-.aside-container .aside-img {
-  cursor: pointer;
-}
-
-.aside-container .aside-text {
-  cursor: pointer;
-}
-
-#editor {
-  border-bottom: 1px solid rgb(222, 222, 222);
-  font-family: 'NYTFranklin', sans-serif;
-  font-size: 1.094vw;
-  line-height: 1.094vw;
-  letter-spacing: 0.28px;
-  padding: 0 0 0.938vw;
-  margin: 0 0 1.172vw;
-}
-
-.aside-img {
-  width: 80px;
-  height: 77px;
-  border: 1px solid black;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  vertical-align: middle;
-}
-
-.img-1 {
-  background-image: url(../26mag-Relampago-Web-Image-square640.jpg);
-}
-
-.img-2 {
-  background-image: url(../26mag-Migratiion-Images-square640.jpg);
-}
-
-.img-3 {
-  background-image: url(../22fakedeath-square640-v3.jpg);
-}
-
-.img-4 {
-  background-image: url(https://tpc.googlesyndication.com/simgad6075458894681406294?);
-}
-
-.main-aside p {
-  margin: 1.055vw 0 1.055vw 0.781vw;
-  font-family: 'FB Web Use Only', sans-serif;
-  font-size: 1.094vw;
-  line-height: 1.328vw;
-}
-
-/* ======= ===========   ================ */
 
 /* suggested-articles */
 
@@ -661,6 +326,342 @@ body {
   font-weight: 500;
   font-size: 1.406vw;
 }
+
+.date-share ul li a {
+  text-decoration: none;
+}
+
+.article-rights a:hover {
+  text-decoration: none;
+}
+
+.article-hover:hover {
+  text-decoration: underline;
+}
+
+/* shorten Inflation footer's top border */
+
+#inflation-footer::before {
+  content: "";
+  display: block;
+  border-top: 0.5px solid black;
+  width: 17%;
+  margin-bottom: 1.875vw;
+}
+
+#inflation-footer {
+  position: absolute;
+  top: 88%;
+  font-family: 'NYTFranklin', sans-serif;
+  font-size: 1.094vw;
+  line-height: 1.406vw;
+  margin: 0 0 14px;
+}
+
+.main-aside p {
+  margin: 1.055vw 0 1.055vw 0.781vw;
+  font-family: 'FB Web Use Only', sans-serif;
+  font-size: 1.094vw;
+  line-height: 1.328vw;
+}
+
+#author p {
+  color: #333;
+  font-family: 'NYTFranklin', sans-serif;
+  font-size: 1.172vw;
+  line-height: 1.563vw;
+  letter-spacing: 0.023vw;
+  font-weight: 700;
+}
+
+#date-list {
+  margin: 0;
+  padding: 0;
+}
+
+.date-share ul li,
+.article-comment-share ul li {
+  list-style: none;
+  display: inline;
+  margin-right: 12px;
+}
+
+#box-n {
+  color: black;
+  padding: 0 0 0 5px;
+  font-weight: lighter;
+  font-size: 2.25vw;
+  background-color: transparent;
+  height: 2.344vw;
+  width: 2.344vw;
+}
+
+#num-com {
+  display: inline-block;
+  color: black;
+  margin: -3px 0 0 0;
+  padding: 0 0 0 0;
+  font-family: 'FB Web Use Only', sans-serif;
+  font-size: 0.938vw;
+}
+
+#icon-mark {
+  font-size: 1.8vw;
+  color: black;
+}
+
+#time {
+  width: 55%;
+  float: left;
+  font-family: 'NYTFranklin', sans-serif;
+  font-size: 0.981vw;
+  margin: 0 auto;
+  padding-top: 8px;
+}
+
+/* ============================ */
+
+/* subscribe div inside the 2nd part of the article */
+
+#subscribe {
+  height: 5.938vw;
+  font-family: 'NYTFranklin', sans-serif;
+  font-size: 1.172vw;
+  font-weight: bold;
+  line-height: 19px;
+  text-align: center;
+}
+
+/* add the shorten border top before the subscribe div */
+
+#subscribe ::before {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 5.625vw;
+  margin-bottom: 1.406vw;
+  border-top: 0.5px solid rgb(198, 198, 198);
+}
+
+/*  add the shorten border top after the subscribe div  */
+
+#subscribe::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 5.625vw;
+  margin-top: 1.406vw;
+  border-bottom: 1px solid rgb(198, 198, 198);
+}
+
+#subscribe a:hover {
+  text-decoration: none;
+}
+
+/* ===================style the nav======================== */
+
+.main-nav {
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  width: 100%;
+  height: 2.6875rem;
+  padding: 5px 7px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  margin: 0;
+}
+
+.main-logo {
+  font-size: 16px;
+  line-height: 16px;
+  margin-left: 33px;
+}
+
+/* left side btns */
+
+.login-subscribe-btns {
+  width: 15.15%;
+  justify-content: space-between;
+  margin-right: 0.781vw;
+}
+
+.login-subscribe-btns button {
+  height: 2rem;
+  border: none;
+  border-radius: 3%;
+  background-color: #326891;
+  color: #fff;
+  font-family: 'NYTFranklin', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.859vw;
+  line-height: 0.859vw;
+  letter-spacing: 0.043vw;
+  cursor: pointer;
+}
+
+.menu-search button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.login-subscribe-btns button:first-child {
+  width: 9.297vw;
+}
+
+.login-subscribe-btns button:last-child {
+  width: 4.922vw;
+}
+
+/* right side btns */
+
+.menu-search {
+  margin-left: 13px;
+  cursor: pointer;
+}
+
+.fa-bars {
+  margin-right: 0.9rem;
+  color: black;
+}
+
+/* ===================article title main img caption======================== */
+
+.main-title-fig {
+  background-color: rgb(255, 255, 255);
+  color: #121212;
+  margin-top: 1rem;
+  font-size: 2.5rem;
+}
+
+.main-title-fig h4 {
+  font-family: 'NYTCheltenham', sans-serif;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  margin-top: 3.3vw;
+  width: 37.5rem;
+  height: 6rem;
+  font-style: italic;
+}
+
+.article-figure {
+  margin: 0 10.5rem;
+}
+
+.article-figure img {
+  width: 102%;
+  height: auto;
+}
+
+.article-figure figcaption,
+#figure2 figcaption {
+  font-family: 'nyt-imperial', sans-serif;
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  width: 45rem;
+  height: 3.625rem;
+  margin: 7px 7px 0 0;
+  text-align: left;
+  max-width: 100%;
+}
+
+.article-figure figcaption span {
+  color: hsl(0, 0%, 53%);
+  font-size: 0.8125rem;
+}
+
+/* ============== id="figure2"============= */
+
+#figure2 {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#figure2 img {
+  width: 102%;
+  height: auto;
+}
+
+#author {
+  width: 46.875vw;
+  height: auto;
+  margin-bottom: 1vw;
+}
+
+/* ======= ===========   ================ */
+
+/* <aside> */
+
+/* =====   ==========     ================ */
+
+/* MAIN aside */
+
+.main-aside {
+  width: 13.125rem;
+  height: 59.23rem;
+  font-family: 'NYTImperial', sans-serif;
+  font-size: 0.85rem;
+  position: absolute;
+  top: 18%;
+  left: 82%;
+}
+
+.aside-container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin-top: 1.25rem;
+}
+
+.aside-img {
+  width: 80px;
+  height: 77px;
+  border: 1px solid black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  vertical-align: middle;
+}
+
+.aside-container .aside-img {
+  cursor: pointer;
+}
+
+.aside-container .aside-text {
+  cursor: pointer;
+}
+
+#editor {
+  border-bottom: 1px solid rgb(222, 222, 222);
+  font-family: 'NYTFranklin', sans-serif;
+  font-size: 1.094vw;
+  line-height: 1.094vw;
+  letter-spacing: 0.28px;
+  padding: 0 0 0.938vw;
+  margin: 0 0 1.172vw;
+}
+
+.img-1 {
+  background-image: url(../26mag-Relampago-Web-Image-square640.jpg);
+}
+
+.img-2 {
+  background-image: url(../26mag-Migratiion-Images-square640.jpg);
+}
+
+.img-3 {
+  background-image: url(../22fakedeath-square640-v3.jpg);
+}
+
+.img-4 {
+  background-image: url(https://tpc.googlesyndication.com/simgad6075458894681406294?);
+}
+
+/* ======= ===========   ================ */
 
 /* ======= ===========   ================ */
 

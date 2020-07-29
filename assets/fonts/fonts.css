@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'NYTFranklin';
-  src: url('../fonts/NYTFranklin-Light.woff2') format('woff2'), 
-  url('../fonts/NYTFranklin-Light.woff') format('woff'), 
-  url('../fonts/NYTFranklin-Light.ttf') format('truetype');
+  src: url('../fonts/NYTFranklin-Light.woff2') format('woff2'),
+url('../fonts/NYTFranklin-Light.woff') format('woff'),
+url('../fonts/NYTFranklin-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
