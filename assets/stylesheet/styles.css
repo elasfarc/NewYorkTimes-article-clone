@@ -426,6 +426,24 @@ a {
 
 /* subscribe div inside the 2nd part of the article */
 
+.section ul li {
+  margin-top: 9px;
+}
+
+#l-f-b li {
+  display: inline;
+  font-size: 0.85rem;
+  margin: 0.4rem;
+}
+
+.section ul li a:hover {
+  text-decoration: underline;
+}
+
+#l-f-b li a {
+  color: rgb(85, 84, 84);
+}
+
 #subscribe {
   height: 5.938vw;
   font-family: 'NYTFranklin', sans-serif;
@@ -562,7 +580,7 @@ a {
 
 .article-figure figcaption,
 #figure2 figcaption {
-    border: 1px solid blue;
+  border: 1px solid blue;
   font-family: 'nyt-imperial', sans-serif;
   color: #666;
   font-size: 1rem;
@@ -721,14 +739,6 @@ a {
   padding: 0;
 }
 
-.section ul li {
-  margin-top: 9px;
-}
-
-.section ul li a:hover {
-  text-decoration: underline;
-}
-
 .img-icon {
   max-width: 16px;
   max-height: 16px;
@@ -753,16 +763,6 @@ a {
   line-height: 1.563vw;
   padding: 10px 0;
   text-align: center;
-}
-
-#l-f-b li {
-  display: inline;
-  font-size: 0.85rem;
-  margin: 0.4rem;
-}
-
-#l-f-b li a {
-  color: rgb(85, 84, 84);
 }
 
 /* YT figure */
