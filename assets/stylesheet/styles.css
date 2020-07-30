@@ -660,7 +660,7 @@ a {
   font-family: 'NYTFranklin', sans-serif;
   font-size: 1.094vw;
   line-height: 1.094vw;
-  letter-spacing: 0.28px;
+  letter-spacing: 0.022vw;
   padding: 0 0 0.938vw;
   margin: 0 0 1.172vw;
 }
@@ -704,7 +704,7 @@ a {
 }
 
 #footer-header img {
-  height: 30px;
+  height: 2.344vw;
   position: absolute;
   left: 2.7%;
   cursor: pointer;
@@ -730,7 +730,7 @@ a {
   font-family: 'NYTFranklin', sans-serif;
   font-size: 1.094vw;
   line-height: 1.25vw;
-  padding: 10px 0;
+  padding: 0.781vw 0;
 }
 
 .section ul {
@@ -749,18 +749,18 @@ a {
 
 #last-small {
   border-bottom: 0.5px solid rgb(222, 222, 222);
-  padding-bottom: 3px;
+  padding-bottom: 0.234vw;
 }
 
 #footer-b {
   width: 90vw;
-  height: 66px;
-  margin-top: -5px;
+  height: 5.156vw;
+  margin-top: -0.391vw;
   border-top: 0.094rem solid rgb(218, 215, 215);
   font-family: 'NYTFranklin', sans-serif;
   font-size: 0.859vw;
   line-height: 1.563vw;
-  padding: 10px 0;
+  padding: 0.781vw 0;
   text-align: center;
 }
 
@@ -776,19 +776,19 @@ a {
 #YT-video figcaption {
   font-family: 'nyt-imperial', sans-serif;
   color: #666;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 1.172vw;
+  line-height: 1.563vw;
   text-align: left;
   max-width: 100%;
-  margin-top: 7px;
+  margin-top: 0.547vw;
 }
 
 /* ===================== */
 
 .bold-title-inside-article {
   font-family: 'NYTImperial', sans-serif;
-  font-size: 23px;
-  line-height: 30px;
+  font-size:  1.797vw;
+  line-height: 2.344vw;
   font-weight: bold;
   color: black;
 }
@@ -811,12 +811,12 @@ a {
   font-size: 1.016vw;
   line-height: 1.875vw;
   vertical-align: middle;
-  letter-spacing: 0.65px;
-  padding: 5px 0;
+  letter-spacing: 0.051vw;
+  padding: 0.391vw 0;
   margin: 0;
   text-align: center;
   border: none;
-  border-radius: 5px;
+  border-radius: 0.391vw;
   cursor: pointer;
 }
 
