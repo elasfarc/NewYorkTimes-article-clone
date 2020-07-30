@@ -1,8 +1,9 @@
 @font-face {
   font-family: 'NYTFranklin';
-  src: url('../fonts/NYTFranklin-Light.woff2') format('woff2'),
-url('../fonts/NYTFranklin-Light.woff') format('woff'),
-url('../fonts/NYTFranklin-Light.ttf') format('truetype');
+  src:
+    url('../fonts/NYTFranklin-Light.woff2') format('woff2'),
+    url('../fonts/NYTFranklin-Light.woff') format('woff'),
+    url('../fonts/NYTFranklin-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -10,8 +11,9 @@ url('../fonts/NYTFranklin-Light.ttf') format('truetype');
 
 @font-face {
   font-family: 'NYTImperial';
-  src: url('../fonts/NYTImperial-Regular.woff2') format('woff2'), 
-  url('../fonts/NYTImperial-Regular.woff') format('woff');
+  src:
+    url('../fonts/NYTImperial-Regular.woff2') format('woff2'),
+    url('../fonts/NYTImperial-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -19,8 +21,9 @@ url('../fonts/NYTFranklin-Light.ttf') format('truetype');
 
 @font-face {
   font-family: 'NYTCheltenham';
-  src: url('../fonts/NYTCheltenham-BoldItalic.woff2') format('woff2'),
-  url('../fonts/NYTCheltenham-BoldItalic.woff') format('woff');
+  src:
+    url('../fonts/NYTCheltenham-BoldItalic.woff2') format('woff2'),
+    url('../fonts/NYTCheltenham-BoldItalic.woff') format('woff');
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -28,8 +31,9 @@ url('../fonts/NYTFranklin-Light.ttf') format('truetype');
 
 @font-face {
   font-family: 'NYTFranklin';
-  src: url('../fonts/NYTFranklin-Bold.woff2') format('woff2'),
-  url('../fonts/NYTFranklin-Bold.woff') format('woff');
+  src:
+    url('../fonts/NYTFranklin-Bold.woff2') format('woff2'),
+    url('../fonts/NYTFranklin-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -37,8 +41,9 @@ url('../fonts/NYTFranklin-Light.ttf') format('truetype');
 
 @font-face {
   font-family: 'Times New Roman';
-  src: url('TimesNewRomanPSMT.woff2') format('woff2'),
-  url('TimesNewRomanPSMT.woff') format('woff');
+  src:
+    url('TimesNewRomanPSMT.woff2') format('woff2'),
+    url('TimesNewRomanPSMT.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -46,8 +51,9 @@ url('../fonts/NYTFranklin-Light.ttf') format('truetype');
 
 @font-face {
   font-family: 'FB Web Use Only';
-  src: url('Munged-FeRJttgytI.woff2') format('woff2'),
-  url('Munged-FeRJttgytI.woff') format('woff');
+  src:
+    url('Munged-FeRJttgytI.woff2') format('woff2'),
+    url('Munged-FeRJttgytI.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -55,8 +61,9 @@ url('../fonts/NYTFranklin-Light.ttf') format('truetype');
 
 @font-face {
   font-family: 'NYTCheltenham';
-  src: url('NYTCheltenham-Medium.woff2') format('woff2'),
-  url('NYTCheltenham-Medium.woff') format('woff');
+  src:
+    url('NYTCheltenham-Medium.woff2') format('woff2'),
+    url('NYTCheltenham-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -64,8 +71,9 @@ url('../fonts/NYTFranklin-Light.ttf') format('truetype');
 
 @font-face {
   font-family: 'Georgia';
-  src: url('Georgia.woff2') format('woff2'),
-  url('Georgia.woff') format('woff');
+  src:
+    url('Georgia.woff2') format('woff2'),
+    url('Georgia.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -73,8 +81,9 @@ url('../fonts/NYTFranklin-Light.ttf') format('truetype');
 
 @font-face {
   font-family: 'New York';
-  src: url('NewYorkMedium-Regular.woff2') format('woff2'),
-  url('NewYorkMedium-Regular.woff') format('woff');
+  src:
+    url('NewYorkMedium-Regular.woff2') format('woff2'),
+    url('NewYorkMedium-Regular.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -82,8 +91,9 @@ url('../fonts/NYTFranklin-Light.ttf') format('truetype');
 
 @font-face {
   font-family: 'New York Small';
-  src: url('NewYorkSmall-Regular.woff2') format('woff2'),
-  url('NewYorkSmall-Regular.woff') format('woff');
+  src:
+    url('NewYorkSmall-Regular.woff2') format('woff2'),
+    url('NewYorkSmall-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;

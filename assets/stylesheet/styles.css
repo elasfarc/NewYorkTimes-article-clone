@@ -445,21 +445,20 @@ a {
 }
 
 #subscribe {
-  height: 5.938vw;
   font-family: 'NYTFranklin', sans-serif;
   font-size: 1.172vw;
-  font-weight: bold;
+  font-weight: bold; 
   line-height: 19px;
   text-align: center;
 }
 
 /* add the shorten border top before the subscribe div */
 
-#subscribe ::before {
+#subscribe::before {
   content: "";
   display: block;
   margin: 0 auto;
-  width: 5.625vw;
+  width: 20%;
   margin-bottom: 1.406vw;
   border-top: 0.5px solid rgb(198, 198, 198);
 }
@@ -470,7 +469,7 @@ a {
   content: "";
   display: block;
   margin: 0 auto;
-  width: 5.625vw;
+  width: 20%;
   margin-top: 1.406vw;
   border-bottom: 1px solid rgb(198, 198, 198);
 }
@@ -629,7 +628,7 @@ a {
   font-family: 'NYTImperial', sans-serif;
   font-size: 0.85rem;
   position: absolute;
-  top: 18%;
+  top: 17%;
   left: 82%;
 }
 
@@ -680,7 +679,7 @@ a {
 }
 
 .img-4 {
-  background-image: url(https://tpc.googlesyndication.com/simgad6075458894681406294?);
+  background-image: url(../sc4.png);
 }
 
 /* ======= ===========   ================ */
@@ -700,7 +699,7 @@ a {
 }
 
 #footer-header {
-  margin: 0 1vw;
+  margin: 0 0.5vw;
   border-top: 4px double rgb(226, 226, 226);
   padding-top: 0.781vw;
 }
@@ -709,6 +708,7 @@ a {
   height: 30px;
   position: absolute;
   left: 2.7%;
+  cursor: pointer;
 }
 
 #footer-main-sect {
@@ -788,7 +788,7 @@ a {
 
 .bold-title-inside-article {
   font-family: 'NYTImperial', sans-serif;
-  font-size: 20px;
+  font-size: 23px;
   line-height: 30px;
   font-weight: bold;
   color: black;
