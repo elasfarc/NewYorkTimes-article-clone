@@ -841,6 +841,10 @@ a {
 
 /* ==fixed-footer== */
 
+.fixed-footer-wraper {
+  min-height: 50px;
+}
+
 .fixed-footer {
   background-color: white;
   box-sizing: border-box;
@@ -852,7 +856,7 @@ a {
   border-top: 1px solid black;
   text-align: center;
   position: fixed;
-  bottom: 5.5px;
+  bottom: 0;
   cursor: pointer;
 }
 
