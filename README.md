@@ -12,7 +12,7 @@
  - Using layouts with Flex, Grid and Float.
 
 ## Demo Link:
-[You can find the project live here]([https://raw.githack.com/elasfarc/NewYorkTimes-article-clone/article-clone/index.html])
+[You can find the project live here](https://raw.githack.com/elasfarc/NewYorkTimes-article-clone/article-clone/index.html)
 
 ## Authors  
 
