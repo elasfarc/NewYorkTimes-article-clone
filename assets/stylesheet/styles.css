@@ -19,6 +19,7 @@ body {
 
 .wrapper {
   width: 100%;
+  height: auto;
   position: relative;
 }
 
@@ -497,7 +498,7 @@ a {
 .main-logo {
   font-size: 16px;
   line-height: 16px;
-  margin-left: 123px;
+  margin-left: -33px;
 }
 
 /* left side btns */
@@ -547,6 +548,16 @@ a {
 .fa-bars {
   margin-right: 0.9rem;
   color: black;
+}
+
+.menu-search .section{
+    font-family: 'NYTFranklin', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.127vw;
+    line-height: 1.503vw;
+    letter-spacing: 0.055vw;
+    font-weight: bold;
+    margin-left: 28px;
 }
 
 /* ===================article title main img caption======================== */
@@ -822,6 +833,5 @@ a {
 .comment-list {
   text-decoration: none;
 }
-
 
 
