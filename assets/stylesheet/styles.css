@@ -447,7 +447,7 @@ a {
 #subscribe {
   font-family: 'NYTFranklin', sans-serif;
   font-size: 1.172vw;
-  font-weight: bold; 
+  font-weight: bold;
   line-height: 19px;
   text-align: center;
 }
@@ -497,7 +497,7 @@ a {
 .main-logo {
   font-size: 16px;
   line-height: 16px;
-  margin-left: 33px;
+  margin-left: 123px;
 }
 
 /* left side btns */
@@ -554,7 +554,7 @@ a {
 .main-title-fig {
   background-color: rgb(255, 255, 255);
   color: #121212;
-  margin-top: 1rem;
+  margin-top: 4.9rem;
   font-size: 2.5rem;
 }
 
@@ -569,7 +569,7 @@ a {
 }
 
 .article-figure {
-  margin: 0 10.5rem;
+  margin: 0 11.5rem 3.2vw;
 }
 
 .article-figure img {
@@ -579,7 +579,6 @@ a {
 
 .article-figure figcaption,
 #figure2 figcaption {
-  border: 1px solid blue;
   font-family: 'nyt-imperial', sans-serif;
   color: #666;
   font-size: 1rem;
@@ -611,7 +610,7 @@ a {
 #author {
   width: 46.875vw;
   height: auto;
-  margin-bottom: 1vw;
+  
 }
 
 /* ======= ===========   ================ */
