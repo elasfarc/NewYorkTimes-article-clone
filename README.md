@@ -1,12 +1,14 @@
 
 # NewYorkTimes-article-clone
 	>This is the third collaborative project from Microverse program.
-	>This project consists of building an HTML and CSS document that matches the appearance of an article from The New York Times webpage.
+	>building an HTML and CSS document that matches the appearance of an article from The New York Times webpage.
+
+
 ![screenshot](./assets/GHP-SCSH.png)
 
 ## Built With :
 
- - **Html** and **CSS**
+ - **Html** & **CSS**
  - Using layouts with Flex, Grid and Float.
 
 ## Demo Link:
