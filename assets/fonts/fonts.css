@@ -6,7 +6,6 @@
     url('../fonts/NYTFranklin-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -16,7 +15,6 @@
     url('../fonts/NYTImperial-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -26,7 +24,6 @@
     url('../fonts/NYTCheltenham-BoldItalic.woff') format('woff');
   font-weight: bold;
   font-style: italic;
-  font-display: swap;
 }
 
 @font-face {
@@ -36,7 +33,6 @@
     url('../fonts/NYTFranklin-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -46,7 +42,6 @@
     url('TimesNewRomanPSMT.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -56,7 +51,6 @@
     url('Munged-FeRJttgytI.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -66,7 +60,6 @@
     url('NYTCheltenham-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -76,7 +69,6 @@
     url('Georgia.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -86,7 +78,6 @@
     url('NewYorkMedium-Regular.woff') format('woff');
   font-weight: 500;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -96,5 +87,4 @@
     url('NewYorkSmall-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }

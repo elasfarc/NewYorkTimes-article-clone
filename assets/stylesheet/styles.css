@@ -610,7 +610,6 @@ a {
 #author {
   width: 46.875vw;
   height: auto;
-  
 }
 
 /* ======= ===========   ================ */
@@ -788,7 +787,7 @@ a {
 .bold-title-inside-article {
   font-family: 'NYTImperial', sans-serif;
   font-size:  1.797vw;
-  line-height: 2.344vw;
+  line-height:2.344vw;
   font-weight: bold;
   color: black;
 }
